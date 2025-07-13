@@ -3,7 +3,7 @@ import os
 import django
 
 # 设置 Django 环境
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'BookStoreBackend.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'server.settings')
 django.setup()
 
 import img_urls

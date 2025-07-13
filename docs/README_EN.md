@@ -23,7 +23,7 @@ This project integrates a user-friendly front-end interface with a robust backen
 
 ```
 BingWenBookStore/
-├── BookStoreBackend/       # Django-based backend
+├── server/       # Django-based backend
 ├── Documents/              # Design and reports
 ├── Frontend-Vite/          # Vite-powered Vue.js frontend
 ├── Resources/              # Data sources and analysis
@@ -42,10 +42,10 @@ Ensure the following tools are installed:
 
 ### Backend Setup
 
-1. Navigate to the `BookStoreBackend` directory:
+1. Navigate to the `server` directory:
 
     ```bash
-    cd BookStoreBackend
+    cd server
     ```
 
 2. Install dependencies:
@@ -56,7 +56,7 @@ Ensure the following tools are installed:
 
 3. Configure the database:
 
-    - Open `BookStoreBackend/settings.py` and update the `DATABASES` section with your MySQL credentials.
+    - Open `server/settings.py` and update the `DATABASES` section with your MySQL credentials.
 
 4. Apply migrations:
 

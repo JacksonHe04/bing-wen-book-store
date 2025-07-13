@@ -4,7 +4,7 @@ from datetime import date
 from random import randint, choice
 
 # 设置 Django 环境
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "BookStoreBackend.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "server.settings")
 django.setup()
 
 # 导入模型

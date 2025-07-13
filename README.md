@@ -23,7 +23,7 @@
 
 ```
 BingWenBookStore/
-├── BookStoreBackend/       # 基于Django的后端
+├── server/       # 基于Django的后端
 ├── Documents/              # 设计文档与项目报告
 ├── Frontend-Vite/          # 基于Vite的Vue.js前端
 ├── Resources/              # 数据来源与分析
@@ -44,10 +44,10 @@ BingWenBookStore/
 
 ### 后端配置
 
-1. 进入 `BookStoreBackend` 目录：
+1. 进入 `server` 目录：
 
     ```bash
-    cd BookStoreBackend
+    cd server
     ```
 
 2. 安装后端依赖：
@@ -58,7 +58,7 @@ BingWenBookStore/
 
 3. 配置数据库：
 
-   - 打开 `BookStoreBackend/settings.py` 文件，在 `DATABASES` 配置项中填写你的 MySQL 数据库信息。
+   - 打开 `server/settings.py` 文件，在 `DATABASES` 配置项中填写你的 MySQL 数据库信息。
 
 4. 执行数据库迁移：
 
